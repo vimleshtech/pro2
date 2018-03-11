@@ -1,0 +1,35 @@
+**screenshot capture
+File src = 	((TakesScreenshot)	driver).getScreenshotAs(OutputType.FILE);
+FileUtils.copyFile(src, new File("C:\\Users\\hp\\Desktop\\yaml\\out.png"));
+		
+
+**Alert handling/popup handling
+
+**Window Handling 
+
+
+**Mouse/Key Events 
+
+
+**firebug
+	go to tools menu -> addons -> firebug 
+**Xpath 
+		- absolute path :
+				.//body/div[2]/input[1]
+		- ref. path 
+				.//*[@id='login1']/input[1]
+
+
+
+**Junit framework:
+
+	-junit test class	
+	-junit suite : references of junit test classes 
+
+	**Annotations:
+			@BeforeClass	:		1
+			@AfterClass	:		5		
+			@Before		:		2
+			@After		: 		4
+			@Test		:		3		
+			@Ignore 
