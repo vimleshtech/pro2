@@ -23,11 +23,11 @@ public class testcaese1 {
 		
 		
 		WebDriver driver = new FirefoxDriver();
-		driver.get("https://www.yahoo.com/");
+		driver.get("https://www.google.com/");
 		//driver.findElement(By.linkText("Gmail")).click();
 		
 		File src = 	((TakesScreenshot)	driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("C:\\Users\\hp\\Desktop\\yaml\\out1.png"));
+		FileUtils.copyFile(src, new File("C:\\Users\\hp\\Desktop\\yaml\\out3.png"));
 		
 		/*
 		//alert
